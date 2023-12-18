@@ -469,3 +469,19 @@ gap: 16px;}
   line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.footer .iconki-link:hover,
+.footer .socials-link:focus {
+  background-color: #31D0AA;
+}
+.footer-ikonki-link{display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  position: relative;
+  color: #F4F4FD;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}}
