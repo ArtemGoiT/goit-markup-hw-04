@@ -37,7 +37,11 @@ img {
 }
   .header {
  background-color: #ffffff;
-border-bottom: 1px solid #E7E9FC;
+border-bottom: 1px solid;
+ box-shadow: #E7E9FC
+0px 2px 1px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container  {
   display: flex;
@@ -462,4 +466,6 @@ gap: 16px;}
   font-weight: 500;
   color: #fff;
   margin-bottom: 16px;
+  line-height: 1.5;
+letter-spacing: 0.02em;
 }
