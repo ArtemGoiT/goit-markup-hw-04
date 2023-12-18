@@ -328,7 +328,8 @@ margin-top: 8px;
   height: 100%;
   background-color: #4D5AE5;
 border-radius: 50%;
-background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .ikonki-link:hover, 
 .ikonki-link:focus { background-color: #404bbf;}
 .ikonki-pohoto{
@@ -478,7 +479,7 @@ letter-spacing: 0.02em;
     background-color: #4D5AE5;
     position: relative;
     color: #F4F4FD;
-  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer .footer-li:hover,
 .footer .footer-li:focus {
