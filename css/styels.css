@@ -466,6 +466,9 @@ gap: 16px;}
   line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.ikonki-li{
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer .iconki-link:hover,
 .footer .socials-link:focus {
   background-color: #31D0AA;
@@ -482,3 +485,5 @@ letter-spacing: 0.02em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.iconki-pohoto {
+  fill: #f4f4fd;}
